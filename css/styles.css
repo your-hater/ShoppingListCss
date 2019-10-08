@@ -1,0 +1,68 @@
+.body {
+  background-color: #3b3f45;
+}
+
+.conteiner {
+  display: block;
+}
+.description::before {
+  color: #cdcbc6;
+}
+
+.description::after {
+  color: red;
+}
+
+.shoping-list .description {
+  font-size: 60%;
+  color: #cdcbd6;
+  vertical-align: middle;
+}
+.shopping-list li:nth-child(1n + 2) {
+  background-color: #7a7593;
+}
+
+.shopping-list li:nth-child(2n + 2) {
+  background-color: gray;
+}
+
+.shopping-list label {
+  display: block;
+  padding: 10px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 20px;
+}
+
+.shopping-list label:hover {
+  border-top: 3px solid #fff;
+  border-bottom: 3px solid #fff;
+  background-color: #625e77;
+}
+
+.shopping-list label:active {
+  background-color: #eb7e7f;
+}
+
+.shopping-list input[type="checkbox"] {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  top: 3px;
+  cursor: pointer;
+  margin: 0 15px 0 10px;
+}
+
+header,
+footer {
+  color: #eb7e7f;
+  background-color: #4a4f56;
+  text-align: center;
+  padding: 50px 0 20px;
+  font-size: 21px;
+}
+
+.shopping-list input[type="checkbox"]:checked ~ span {
+  color: #a49eb2;
+  text-decoration: line-through;
+}

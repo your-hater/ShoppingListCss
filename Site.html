@@ -5,25 +5,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
-  <body style="background-color:rgb(212, 179, 204)">
-        <header>
-      <p>
-        <h2 style="color: brown">CSS Dinner Shoping List</h2>
-        <h4 style="color: brown">Let`s go to the mall!</h4>
-      </p>
+  <body>
+    <header>
+      <h1>CSS Dinner Shoping List</h1>
+      <h4>Let`s go to the mall!</h4>
     </header>
-      <p>
-        <ul>
-          <li><input type="checkbox"> <h3>lot of pickles</h3><h6>(for the next lessons of CSS)</h6></li>
-          <li><input type="checkbox"><strike><h3>10 apples</h3><h6>(for more CSS manipulations</h6> </strike> </li>
-          <li><input type="checkbox"><h3>20 oranges</h3><h6>(because they are awesome</h6></li>
-          <li><input type="checkbox"><h3>13 plates</h3><h6>(hm...they always disappear</h6></li>
-          <li><input type="checkbox"><h3>15 bentos</h3></li>
-          <li><input type="checkbox"><h3>1 bottle of Sake ^-^</h3><h6>(for my friends)</h6></li>
-        </ul>
-      </p>
-      <p>Bon appetite ;)</p>
-    
+
+    <ul class="shopping-list">
+      <li>
+        <label for="checkbox-1">
+          <input id="checkbox-1" type="checkbox" />
+          <span class="item">A lot of pickles</span>
+          <span class="note">for the next lessons about CSS</span>
+        </label>
+      </li>
+
+      <li>
+        <label for="checkbox-2">
+          <input id="checkbox-2" type="checkbox" />
+          <span>10 apples</span>
+          <span class="note">for more CSS manipulation</span>
+        </label>
+      </li>
+      <li>
+        <label for="checkbox-3">
+          <input id="checkbox-3" type="checkbox" />
+          <span>20 oranges</span>
+          <span class="note">because they are awesome</span>
+        </label>
+      </li>
+      <li>
+        <label for="checkbox-4">
+          <input id="checkbox-4" type="checkbox" />
+          <span>13 plates</span>
+          <span class="note">hm... they always disappear</span>
+        </label>
+      </li>
+      <li>
+        <label for="checkbox-5">
+          <input id="checkbox-5" type="checkbox" />
+          <span>15 bentos</span>
+          <span class="note"></span>
+        </label>
+      </li>
+      <li>
+        <label for="checkbox-6">
+          <input id="checkbox-6" type="checkbox" />
+          <span>1 bottle of Sake ^_^</span>
+          <span class="note">for my friends</span>
+        </label>
+      </li>
+    </ul>
+
+    <footer>Bon appetit :)</footer>
   </body>
 </html>
